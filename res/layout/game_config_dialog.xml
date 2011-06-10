@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="280dip">
+	<LinearLayout android:id="@+id/content" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<RadioGroup android:id="@+id/rg_config" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<RadioButton android:id="@+id/rg_config_rb_0" android:text="@string/game_config_100" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true"></RadioButton>
+			<RadioButton android:id="@+id/rg_config_rb_1" android:text="@string/game_config_1000" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+		</RadioGroup>
+		<CheckBox android:id="@+id/cb_clear" android:text="@string/game_config_clear" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+		<LinearLayout android:orientation="horizontal" style="@android:style/ButtonBar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<Button android:layout_height="wrap_content" android:id="@+id/btn_save" android:text="@string/game_config_btn_save" android:layout_width="wrap_content" android:singleLine="true" android:layout_weight="1"></Button>
+			<Button android:layout_height="wrap_content" android:id="@+id/btn_cancel" android:text="@string/game_config_btn_cancel" android:layout_width="wrap_content" android:singleLine="true" android:layout_weight="1"></Button>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

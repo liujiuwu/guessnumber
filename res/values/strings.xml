@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">猜数</string>
+	<string name="app_version">1.0</string>
+	<string name="app_about">猜数版权所有\nEmail:liujiuwu(at)gmail.com\nQQ:923933533</string>
+	<string name="app_help">可以在设置菜单中对游戏进行设置。</string>
+	<string name="btn_ok">确定</string>
+	<string name="btn_goon">继续</string>
+	<string name="btn_exit">退出</string>
+	<string name="btn_begin">重来</string>
+	
+	<string name="menu_item_config">设置</string>
+	<string name="menu_item_help">帮助</string>
+	<string name="menu_item_about">关于</string>
+	<string name="menu_item_exit">退出 </string>
+	
+	
+	<string name="game_config_title">游戏设置</string>
+	<string name="game_config_clear">猜数后清空输入框数字</string>
+	<string name="game_config_100">1-100以内的数</string>
+	<string name="game_config_1000">1-1000以内的数</string>
+	<string name="game_config_btn_save">保存</string>
+	<string name="game_config_btn_cancel">取消</string>
+	<string name="exit_msg">确定要退出游戏吗？</string>
+
+	<string name="game_msg_guess_num_range" formatted="false">猜数范围:%s至%s以内的数。</string>
+	<string name="game_msg_guess_stat" formatted="false">已猜:%s次，机会:%s次。</string>
+	<string name="game_msg_guess_error" formatted="false">请输入%s至%s以内的数。</string>
+	<string name="game_msg_guess_fail">很遗憾！没猜中。</string>
+	<string name="game_msg_guess_success" formatted="false">恭喜您，在第%s次猜中%s。</string>
+	
+	<color name="text_color1">#8B0000</color>
+	<color name="text_color2">#008000</color>
+</resources>

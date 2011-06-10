@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:umadsdk="http://schemas.android.com/apk/res/com.pure.guessnumber" android:background="@drawable/gamebg" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:id="@+id/content" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="80dp">
+		<LinearLayout android:orientation="vertical" android:layout_weight="1.0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+			<TextView android:text="" android:id="@+id/tv_guess_num_range_text" android:singleLine="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="16sp" android:textColor="@color/text_color1"></TextView>
+			<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginBottom="5dp">
+				<EditText android:layout_width="fill_parent" android:id="@+id/et_guess_value" android:layout_height="wrap_content" android:numeric="integer" android:singleLine="true" android:textSize="48sp" android:textColor="@color/text_color2" android:textStyle="bold" android:layout_weight="1"></EditText>
+				<Button android:text="@string/btn_ok" android:id="@+id/btn_guess" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1" android:textSize="36sp"></Button>
+			</TableRow>
+			<TextView android:text="" android:id="@+id/tv_guess_result" android:singleLine="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="16sp" android:textColor="@color/text_color1"></TextView>
+			<TextView android:text="" android:id="@+id/tv_guess_num_stat" android:singleLine="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="16sp" android:textColor="@color/text_color1"></TextView>
+		</LinearLayout>
+		<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<net.youmi.android.AdView android:id="@+id/adView" android:layout_width="fill_parent" android:layout_height="wrap_content" umadsdk:textColor="#ffffff" umadsdk:backgroundTransparent="155" umadsdk:backgroundColor="#808080" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
